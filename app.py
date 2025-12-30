@@ -43,7 +43,8 @@ CATEGORY_RULES = {
             "baby"
         ]
     }
-
+uploaded_file = None
+uploaded_image = None
 st.set_page_config(page_title="Product Placement", layout="wide")
 
 mode = st.radio(
